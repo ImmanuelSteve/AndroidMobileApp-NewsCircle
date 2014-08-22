@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >     
+    <item android:id="@+id/action_load_more"
+          android:icon="@drawable/ic_action_import_export"
+          android:title="@string/action_load_more"
+          android:showAsAction="always|withText"/>
+    
+    <item android:id="@+id/action_location"
+          android:icon="@drawable/ic_action_place"
+          android:title="@string/action_location"
+          android:showAsAction="never" />
+    
+    <item android:id="@+id/action_help"
+          android:icon="@drawable/ic_action_help"
+          android:title="@string/action_help"
+          android:showAsAction="ifRoom"/>
+    
+    <item android:id="@+id/action_about"
+          android:icon="@drawable/ic_action_about"
+          android:title="@string/action_about"
+          android:showAsAction="never" />
+</menu>
